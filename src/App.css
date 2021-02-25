@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.inputs label {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 2%;
+}
+
+.errors {
+  margin: 1% 0 2%;
+  color: red;
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
